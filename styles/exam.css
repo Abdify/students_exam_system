@@ -1,0 +1,70 @@
+body{
+    background-color: #272727;    
+    color:white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+fieldset{
+    width: 70%;
+    border-color: #FFE400;
+}
+#startButton, #submitButton{
+    height: 3rem;
+    background-color: transparent;
+    color: #FFE400;
+    border: 1px solid #FFE400;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s all ease;
+    outline: none;
+}
+#startButton:hover, #submitButton:hover{
+
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+.question_box{
+    margin: .7rem 0;
+    padding: .3rem; 
+}
+.question_box > div{
+    display: flex;
+    align-items: center;
+}
+
+
+.question_box input{
+    height: 1.3rem;
+    width: 1.3rem;
+    margin:  .5rem;
+}
+
+label{
+    padding: .5rem 0;
+}
+
+#mark{
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #FFE400;
+    background-color: transparent;
+    color: #FFE400;
+    text-align: center;
+    display: none;
+}
+
+/* .questions_list, #submitButton, label[for="mark"]{
+    display: none;
+} */
+
+@media (max-width: 768px){
+    fieldset{
+        width: 95%;
+    }
+
+}

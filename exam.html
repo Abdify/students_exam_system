@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    
+    <link rel="stylesheet" href="styles/exam.css">
+</head>
+<body>
+    <main>
+        <h2><button id="startButton" >Start Exam!</button></h2>
+        <h3 id="rTime"></h3>
+        <fieldset>
+            <legend style="text-align: center; color: #FFE400;"><h2>Chapter Name</h2></legend>
+            <ol class="questions_list" style="display: none!important;">
+                <li class="question_box">
+                    <p>First Questiion Here?</p>
+                    
+                    <div><input type="radio" name="q1_options" id="q1_option1"  value="1"><label for="q1_option1">Option 1</label></div>
+                    <div><input type="radio" name="q1_options" id="q1_option2"  value="2"><label for="q1_option2">Option 2</label></div>
+                    <div><input type="radio" name="q1_options" id="q1_option3"  value="3"><label for="q1_option3">Option 3</label></div>
+                    <div><input type="radio" name="q1_options" id="q1_option4"  value="4"><label for="q1_option4">Option 4</label></div>
+                </li>
+                <li class="question_box">
+                    <p>Next Questiion Here?</p>
+                    <div><input type="radio" name="q2_options" id="q2_option1"  value="1"><label for="q2_option1">Option 1</label></div>
+                    <div><input type="radio" name="q2_options" id="q2_option2"  value="2"><label for="q2_option2">Option 2</label></div>
+                    <div><input type="radio" name="q2_options"  id="q2_option3"  value="3"><label for="q2_option3">Option 3</label></div>
+                    <div><input type="radio" name="q2_options" id="q2_option4"  value="4"><label for="q2_option4">Option 4</label></div>
+                </li>
+                <li class="question_box">
+                    <p>Next Questiion Here?</p>
+                    <div><input type="radio" name="q3_options" id="q3_option1"  value="1"><label for="q3_option1">Option 1</label></div>
+                    <div><input type="radio" name="q3_options" id="q3_option2"  value="2"><label for="q3_option2">Option 2</label></div>
+                    <div><input type="radio" name="q3_options" id="q3_option3"  value="3"><label for="q3_option3">Option 3</label></div>
+                    <div><input type="radio" name="q3_options" id="q3_option4"  value="4"><label for="q3_option4">Option 4</label></div>
+                </li>
+                <li class="question_box">
+                    <p>Next Questiion Here?</p>
+                    <div><input type="radio" name="q4_options" id="q4_option1"  value="1"><label for="q4_option1">Option 1</label></div>
+                    <div><input type="radio" name="q4_options" id="q4_option2"  value="2"><label for="q4_option2">Option 2</label></div>
+                    <div><input type="radio" name="q4_options" id="q4_option3"  value="3"><label for="q4_option3">Option 3</label></div>
+                    <div><input type="radio" name="q4_options" id="q4_option4"  value="4"><label for="q4_option4">Option 4</label></div>
+                </li>
+                <li class="question_box">
+                    <p>Next Questiion Here?</p>
+                    <div><input type="radio" name="q5_options" id="q5_option1"  value="1"><label for="q5_option1">Option 1</label></div>
+                    <div><input type="radio" name="q5_options" id="q5_option2"  value="2"><label for="q5_option2">Option 2</label></div>
+                    <div><input type="radio" name="q5_options" id="q5_option3"  value="3"><label for="q5_option3">Option 3</label></div>
+                    <div><input type="radio" name="q5_options" id="q5_option4"  value="4"><label for="q5_option4">Option 4</label></div>
+                </li>
+                
+            </ol>
+            <button type="submit" id="submitButton" style="display: none!important;">Submit Your Answers</button>
+        </fieldset>
+
+        <label for="mark" style="display: none!important;">Your mark: </label><input type="text" id="mark" style="display: none!important;">
+        
+        
+    </main>
+
+    <script src="js/exam.js"></script>
+</body>
+</html>
