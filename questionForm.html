@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #272727;    
+            color:white;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        form{
+            width: 70%;
+            border: 2px solid;
+            border-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+            border-image-slice: 1;
+            padding: 1rem;
+            margin: 50px 0;
+        }
+        input{
+            margin: .3rem;
+            padding: .2rem;
+            height: 30px;
+            border-image: linear-gradient(to right, red, purple);
+            border-image-slice: 1;
+            outline: none;
+            display: inline-block;
+        }
+        input[placeholder="Your question here..."]{
+            width: 90%;
+        }
+        button{
+            margin: .5rem;
+            padding: 1rem;
+            background-color: transparent;
+            color: gold;
+            border-image: linear-gradient(to right, red, purple);
+            border-image-slice: 1;
+            cursor: pointer;
+            outline: none;
+            transition: .5s all ease;
+        }
+        button:hover{
+            transform: scale(1.05);
+        }
+        label{
+            color: gold;
+            font-weight: 800;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+            <h2 style="color: white; text-align: center;">Set your questions here!</h2>
+
+            <div class="questionBox">
+                
+                <!-- <label for="question1">Question1: </label><input type="text" id="question1">
+
+                <input type="text" class="option1">
+                <input type="text" class="option2">
+                <input type="text" class="option3">
+                <input type="text" class="option4">  
+                <br>  -->
+
+            </div>
+            
+            
+
+        </form>
+
+
+        <div>
+        <button id="addQuestionButtton" >➕ Add question</button>
+
+        <button type="submit" id="submitButton">✔ Set Question &nbsp;</button>            
+        </div>
+
+    </main>
+    <script src="./js/questionForm.js"></script>
+</body>
+</html>

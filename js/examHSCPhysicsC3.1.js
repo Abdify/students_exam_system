@@ -1,14 +1,14 @@
 let questionsList = document.querySelector(".questions_list");
 let questionBox = document.querySelectorAll(".question_box");
-let correctAnswersList = [2, 1, 3, 2, 4];
+let correctAnswersList = [3,4,4,4,3,1,1,3,1,1,2,3,2,3,3,2,2,2,3,1];
 let submitButton = document.querySelector("#submitButton"); 
 let remainingTime = document.querySelector("#rTime"); 
 let startButton = document.querySelector("#startButton"); 
 
 // Exam Times
-let examEndTime = new Date("Jan 20, 2021 21:24:00").getTime();
+let examEndTime = new Date("Jan 20, 2021 21:59:00").getTime();
 let currentTimeCheck = new Date().getTime();
-let examDuration = (10) * 60 * 1000;
+let examDuration = (5) * 60 * 1000;
 
 startButton.addEventListener("click", startExam);
 submitButton.addEventListener("click", getMark);
