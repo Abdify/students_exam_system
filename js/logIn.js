@@ -1,5 +1,5 @@
-let emailList = ['a@gmail.com', 's@gmail.com'];
-let passwordList = ['asdf', 'sdfg'];
+let emailList = ['a@gmail.com', 'adi@student.com', 's@gmail.com'];
+let passwordList = ['asdf', 'adi', 'sdfg'];
 let todaysExam = "./examHSCPhysicsC3.1.html";
 let form = document.querySelector("#form");
 form.addEventListener("submit", checkUser);
